@@ -39,8 +39,8 @@ print("Table status:", table.table_status)
 import boto3
 
 client = boto3.client('dynamodb',
-  aws_access_key_id='AKIAVCJV2CXERONRWDGH',
-  aws_secret_access_key='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',
+  aws_access_key_id='',
+  aws_secret_access_key='',
   region_name='us-east-1')
 
 #add items to table
